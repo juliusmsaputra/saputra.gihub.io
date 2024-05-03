@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Sepak Bola</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #00698f;
+            font-size: 36px;
+            text-align: center;
+        }
+        h2 {
+            color: #00698f;
+            font-size: 24px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+        
+        .header {
+            background-color: #00698f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+       
+        .nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .main h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .main p {
+            font-size: 18px;
+            text-align: justify;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+  
+    <header class="header">
+        <h1>Web Sepak Bola</h1>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main">
+        <h2>Informasi Sepak Bola</h2>
+        <p>Web ini berisi informasi tentang sepak bola, termasuk berita, skor, dan statistik.</p>
+        <p>Anda dapat menemukan informasi tentang tim sepak bola, pemain, dan turnamen.</p>
+    </main>
+    
+    <footer class="footer">
+        <p>Copyright &copy; 2024 Web Sepak Bola</p>
+    </footer>
+</body>
+</html>
